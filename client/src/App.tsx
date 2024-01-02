@@ -1,11 +1,10 @@
 import './App.css'
+import Navbar from './layouts/navbar/Navbar'
 
 const App = () => {
 
   return (
-   <>
-    <h1>Library App</h1>
-   </>
+   <Navbar />
   )
 }
 
