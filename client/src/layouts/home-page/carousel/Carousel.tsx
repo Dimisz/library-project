@@ -1,4 +1,6 @@
-import carouselImage from './../../Images/BooksImages/book-luv2code-1000.png';
+import carouselImage from '../../../Images/BooksImages/book-luv2code-1000.png';
+import CarouselBook from "./CarouselBook";
+
 const Carousel = () => {
   return(
     <div 
@@ -19,40 +21,25 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div className="text-center">
-                  <img src={carouselImage} width='151' alt='book' height='233' />
-                  <h6 className='mt-2'>Book</h6>
-                  <p>Luv2Code</p>
-                  <a className='btn main-color text-white' href='#'>Reserve</a>
-                </div>
-              </div>
+              <CarouselBook />
+              <CarouselBook />
+              <CarouselBook />
             </div>
           </div>
 
           <div className="carousel-item">
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div className="text-center">
-                  <img src={carouselImage} width='151' alt='book' height='233' />
-                  <h6 className='mt-2'>Book</h6>
-                  <p>Luv2Code</p>
-                  <a className='btn main-color text-white' href='#'>Reserve</a>
-                </div>
-              </div>
+              <CarouselBook />
+              <CarouselBook />
+              <CarouselBook />
             </div>
           </div>
 
           <div className="carousel-item">
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                <div className="text-center">
-                  <img src={carouselImage} width='151' alt='book' height='233' />
-                  <h6 className='mt-2'>Book</h6>
-                  <p>Luv2Code</p>
-                  <a className='btn main-color text-white' href='#'>Reserve</a>
-                </div>
-              </div>
+              <CarouselBook />
+              <CarouselBook />
+              <CarouselBook />
             </div>
           </div>
           <button
@@ -78,14 +65,7 @@ const Carousel = () => {
         {/* Mobile */}
         <div className='d-lg-none mt-3'>
           <div className='row d-flex justify-content-center align-items-center'>
-            <div className='text-center'>
-              <img src={carouselImage} width='151' height='233' alt='book'/>
-              <h6 className='mt-2'>
-                Book
-              </h6>
-              <p>Luv2Code</p>
-              <a className='btn main-color text-white' href='#'>Reserve</a>
-            </div>
+            <CarouselBook/>
           </div>
           </div>
           <div className='homepage-carousel-title mt-3'>
